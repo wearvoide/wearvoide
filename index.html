@@ -1,2 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wearvoide | Minimal Unisex Jewelry - Rings, Chains & Bracelets</title>
+    <meta name="description" content="Wearvoide - Premium minimalist unisex jewelry. Handcrafted rings, chains & bracelets in Jaipur, India. Free shipping across India. Modern designs for everyday wear.">
+    <meta name="keywords" content="wearvoide, minimalist jewelry, unisex jewelry, indian jewelry brand, jaipur jewelry, silver rings, gold chains, bracelets, affordable jewelry">
+    <meta name="author" content="Wearvoide">
+    <meta property="og:title" content="Wearvoide | Minimal Unisex Jewelry - Handcrafted in Jaipur">
+    <meta property="og:description" content="Premium minimalist unisex jewelry - rings, chains & bracelets. Handcrafted in Jaipur with love.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wearvoide.com">
+    <link rel="icon" href="https://example.com/path-to-your-favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://example.com/path-to-apple-touch-icon.png">
+    <link rel="canonical" href="https://wearvoide.com" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #f8f7f4;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1a118edf-be96-4f2a-8f90-c5cbb0c2d19c.png') center/cover no-repeat;
+        }
+        .jewelry-item:hover img {
+            transform: scale(1.05);
+        }
+        .nav-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #000;
+            transition: width 0.3s;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .product-image {
+            height: 280px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-xl font-bold tracking-wider">WEARVOIDE</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-8">
+                        <a href="#home" class="nav-link px-3 py-2 text-sm font-medium">Home</a>
+                        <a href="#shop" class="nav-link px-3 py-2 text-sm font-medium">Shop</a>
+                        <a href="#about" class="nav-link px-3 py-2 text-sm font-medium">About</a>
+                        <a href="#contact" class="nav-link px-3 py-2 text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                    <a href="#" class="bg-black text-white px-4 py-2 rounded-md hover:bg-gray-800 transition-colors text-sm font-medium">
+                        Shop Now
+                    </a>
+                    <button class="md:hidden p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg h-screen flex items-center justify-center text-white">
+        <div class="text-center px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6">WEARVOIDE</h1>
+            <p class="text-xl md:text-2xl mb-6">Minimal Jewelry For The Modern You</p>
+            <p class="text-lg mb-8 max-w-2xl mx-auto">Handcrafted in Jaipur with premium materials. Free shipping across India. 30-day returns.</p>
+            <a href="#shop" class="inline-block bg-white text-gray-900 px-8 py-3 font-medium tracking-wide hover:bg-gray-100 transition duration-300">SHOP NOW</a>
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section id="shop" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4">Our Collections</h2>
+            <p class="max-w-2xl mx-auto">Designed to complement your everyday look with subtle sophistication.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
+            <div class="jewelry-item group relative overflow-hidden">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/bb681718-cbe6-4149-af85-8e16aa50fd05.png" alt="Minimalist silver geometric rings with clean lines and matte finish" class="w-full product-image">
+                <div class="mt-4">
+                    <h3 class="font-semibold">Geometric Rings</h3>
+                    <p class="text-gray-600">From ₹3,299</p>
+                    <p class="text-sm text-gray-500">925 Sterling Silver | 3 Sizes</p>
+                </div>
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-white text-black px-6 py-2 font-medium">View Collection</button>
+                </div>
+            </div>
+            <div class="jewelry-item group relative overflow-hidden">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7f983830-1392-44bd-bf1c-6a69ccf7df01.png" alt="Delicate gold link chains with adjustable lengths and minimalist clasps" class="w-full product-image">
+                <div class="mt-4">
+                    <h3 class="font-semibold">Delicate Chains</h3>
+                    <p class="text-gray-600">From ₹4,899</p>
+                </div>
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-white text-black px-6 py-2 font-medium">View Collection</button>
+                </div>
+            </div>
+            <div class="jewelry-item group relative overflow-hidden">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ea1c52fd-8350-4be2-9ec8-1c6fc0e5b49e.png" alt="Thin unisex bracelets with subtle textures and modern clasps" class="w-full product-image">
+                <div class="mt-4">
+                    <h3 class="font-semibold">Textured Bracelets</h3>
+                    <p class="text-gray-600">From ₹3,999</p>
+                </div>
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-white text-black px-6 py-2 font-medium">View Collection</button>
+                </div>
+            </div>
+            <div class="jewelry-item group relative overflow-hidden">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5e28f539-15ed-46cc-8fb8-64a960f74289.png" alt="Simple geometric earrings in gold and silver tones" class="w-full product-image">
+                <div class="mt-4">
+                    <h3 class="font-semibold">Minimal Earrings</h3>
+                    <p class="text-gray-600">From ₹2,499</p>
+                    <p class="text-sm text-gray-500">Hypoallergenic | Lightweight</p>
+                </div>
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-white text-black px-6 py-2 font-medium">View Collection</button>
+                </div>
+            </div>
+            <div class="jewelry-item group relative overflow-hidden">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d8fd14b8-fd15-4fd1-8242-543f456ffc55.png" alt="Thin stackable rings in mixed metals" class="w-full product-image">
+                <div class="mt-4">
+                    <h3 class="font-semibold">Stackable Rings</h3>
+                    <p class="text-gray-600">From ₹1,799 each</p>
+                    <p class="text-sm text-gray-500">Mix & Match | 3 Metal Options</p>
+                </div>
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-white text-black px-6 py-2 font-medium">View Collection</button>
+                </div>
+            </div>
+            <div class="jewelry-item group relative overflow-hidden">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/41a31ed0-abd3-4019-ba5e-3ff9a0e0f033.png" alt="Modern minimalist cufflinks with geometric designs" class="w-full product-image">
+                <div class="mt-4">
+                    <h3 class="font-semibold">Cuff Links</h3>
+                    <p class="text-gray-600">From ₹3,999</p>
+                    <p class="text-sm text-gray-500">Perfect for formal occasions</p>
+                </div>
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <button class="bg-white text-black px-6 py-2 font-medium">View Collection</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/28924dd6-0e34-4fbd-8aa0-829dc041e42b.png" alt="Hands assembling a delicate jewelry piece in a modern workshop setting" class="w-full h-auto rounded-lg">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Our Philosophy</h2>
+                    <p class="mb-4">At Wearvoide, we believe jewelry should complement your life, not complicate it. Our minimalist designs are created to blend seamlessly with any outfit, adapting to your personal style rather than defining it.</p>
+                    <p class="mb-4">Each piece is crafted with precision using high-quality materials, designed to be lightweight for all-day comfort and durable enough for everyday wear.</p>
+                    <p>Our unisex collections are designed for everyone who appreciates understated elegance and quality craftsmanship.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Product -->
+    <section class="py-16 bg-gray-50 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-2">Featured Collection</h2>
+            <p class="mb-12">The new Linné series — inspired by organic forms in nature</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-2xl font-semibold mb-4">Linné Ring Collection</h3>
+                    <p class="mb-6">Fluid lines meet geometric precision in our signature collection. Each ring is hand-finished to achieve the perfect balance between softness and structure.</p>
+                    <div class="flex justify-center space-x-4 mb-6">
+                        <span class="inline-block w-8 h-8 rounded-full bg-gray-200 border-2 border-gray-300"></span>
+                        <span class="inline-block w-8 h-8 rounded-full bg-gray-800 border-2 border-gray-900"></span>
+                    </div>
+                    <button class="bg-black text-white px-8 py-3 font-medium tracking-wide hover:bg-gray-800 transition duration-300">SHOP THE COLLECTION</button>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/25c1934e-f10d-4ef8-ad97-3abd428b267e.png" alt="Minimalist rings in silver and gold arranged in geometric patterns" class="w-full max-w-md mx-auto product-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12 text-center">What Our Customers Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="border rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-gray-200 mr-4"></div>
+                        <div>
+                            <h4 class="font-semibold">Alex T.</h4>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"The Chains are lightweight but still feel substantial. I get compliments every time I wear them."</p>
+                </div>
+                <div class="border rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-gray-200 mr-4"></div>
+                        <div>
+                            <h4 class="font-semibold">Jamie L.</h4>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Finally found unisex jewelry that actually looks good on both me and my partner. The quality is exceptional."</p>
+                </div>
+                <div class="border rounded-lg p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full bg-gray-200 mr-4"></div>
+                        <div>
+                            <h4 class="font-semibold">Taylor M.</h4>
+                            <div class="flex text-yellow-400">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Love the minimalist design. These pieces go with everything in my wardrobe — from casual to formal."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-16 bg-gray-900 text-white px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Stay Connected</h2>
+            <p class="mb-8">Subscribe to our newsletter for updates on new collections and exclusive offers.</p>
+            <form class="max-w-md mx-auto">
+                <div class="flex">
+                    <input type="email" placeholder="Your email" class="flex-grow px-4 py-3 text-gray-900 focus:outline-none">
+                    <button type="submit" class="bg-white text-gray-900 px-6 py-3 font-medium hover:bg-gray-200 transition duration-300">SUBSCRIBE</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <section id="contact" class="py-16 bg-white px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <h3 class="text-lg font-bold mb-4">WEARVOIDE JEWELRY</h3>
+                    <p class="mb-4">Minimal jewelry for the modern individual.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.instagram.com/wearvoide.in/" class="text-gray-700 hover:text-gray-900" target="_blank" rel="noopener noreferrer">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.29 16.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/>
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com" class="text-gray-700 hover:text-gray-900">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                        <a href="https://pinterest.com" class="text-gray-700 hover:text-gray-900">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12.315 0c-6.634 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.823 16.147c-.314.178-.595-.111-.466-.451.5-1.315 1.133-3.744.989-4.887-.067-.781.027-1.521.529-2.101 1.186-1.097 3.235-.724 3.809.615.56 1.304-.27 2.977-1.363 2.851-.763-.087-.7-.829-.195-1.774.493-.945 1.155-2.343.693-3.417-.55-1.207-2.594-1.507-4.035-.781-1.732.875-2.198 2.596-2.038 3.822.264 1.995 1.169 6.347 3.654 6.429 1.716.056 2.426-1.617 2.426-2.178 0-.457-.112-.861-.338-1.201z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Shop</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Rings</a></li>
+                        <li><a href="#" class="hover:underline">Chains</a></li>
+                        <li><a href="#" class="hover:underline">Bracelets</a></li>
+                        <li><a href="#" class="hover:underline">New Arrivals</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Information</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">About Us</a></li>
+                        <li><a href="#" class="hover:underline">Sustainability</a></li>
+                        <li><a href="#" class="hover:underline">Shipping Policy</a></li>
+                        <li><a href="#" class="hover:underline">Returns</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <a href="mailto:hello@wearvoide.com" class="hover:underline">hello@wearvoide.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            <a href="https://wa.me/919024725245" class="hover:underline" target="_blank" rel="noopener noreferrer">+91 9024725245</a> (WhatsApp)
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            Jaipur, Rajasthan, India
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t mt-12 pt-8 text-center text-gray-500">
+                <p>© 2023 Wearvoide. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JewelryStore",
+      "name": "Wearvoide",
+      "description": "Minimalist unisex jewelry brand offering rings, chains and bracelets",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jaipur",
+        "addressRegion": "Rajasthan",
+        "addressCountry": "IN"
+      },
+      "telephone": "+91 9024725245",
+      "url": "https://wearvoide.com"
+    }
+    </script>
+
+    <script>
+        // Mobile menu toggle functionality
+        const mobileMenuButton = document.querySelector('.md\\:hidden');
+        const navLinks = document.querySelector('.hidden.md\\:block');
+        
+        mobileMenuButton.addEventListener('click', function() {
+            navLinks.classList.toggle('hidden');
+            navLinks.classList.toggle('block');
+            navLinks.classList.toggle('absolute');
+            navLinks.classList.toggle('top-16');
+            navLinks.classList.toggle('left-0');
+            navLinks.classList.toggle('right-0');
+            navLinks.classList.toggle('bg-white');
+            navLinks.classList.toggle('shadow-md');
+            navLinks.classList.toggle('py-4');
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Shop Now button functionality
+            document.querySelector('a.bg-black').addEventListener('click', function(e) {
+                e.preventDefault();
+                window.location.href = "#shop";
+            });
+
+            // Product interaction functionality would be expanded here
+            const productItems = document.querySelectorAll('.jewelry-item');
+            productItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    // In a real implementation, this would navigate to the product page
+                    console.log('Navigating to product page');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
